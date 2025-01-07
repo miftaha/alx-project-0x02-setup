@@ -1,8 +1,8 @@
-const AboutPage = () => {
+const About = () => {
   return (
-    <div>
+    <main>
       <h1>AboutPage</h1>
-    </div>
+    </main>
   )
 }
-export default AboutPage
+export default About
