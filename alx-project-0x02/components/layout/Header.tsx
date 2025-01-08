@@ -18,6 +18,9 @@ const Header = () => {
             <li className="text-xl hover:underline">
               <Link href="/posts">Post</Link>
             </li>
+            <li className="text-xl hover:underline">
+              <Link href="/users">User</Link>
+            </li>
           </ul>
         </nav>
       </div>

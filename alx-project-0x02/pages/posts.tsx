@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import PostCard from '@/components/common/PostCard'
 import Header from '@/components/layout/Header'
 import { type PostProps } from '@/interfaces'
@@ -7,7 +8,7 @@ interface Posts {
 }
 
 const Posts: React.FC<Posts> = ({ posts }) => {
-  console.log(posts)
+  // console.log(posts)
   return (
     <div>
       <Header />

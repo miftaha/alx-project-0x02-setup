@@ -2,7 +2,7 @@ import { PostProps } from '@/interfaces'
 
 const PostCard: React.FC<PostProps> = ({ title, userId, content, id }) => {
   return (
-    <div className="max-w-xl mx-auto rounded-md shadow-sm hover:shadow-2xl bg-gray-100 p-6  duration-300">
+    <div className="max-w-xl mx-auto rounded-md shadow-sm hover:shadow-2xl bg-gray-100 p-6  duration-300 border">
       <div className="mb-4">
         <h1 className="font-semibold text-2xl text-gray-800">{title}</h1>
       </div>
