@@ -15,6 +15,9 @@ const Header = () => {
             <li className="text-xl hover:underline">
               <Link href="/about">About</Link>
             </li>
+            <li className="text-xl hover:underline">
+              <Link href="/posts">Post</Link>
+            </li>
           </ul>
         </nav>
       </div>

@@ -2,7 +2,7 @@ import Card from '@/components/common/Card'
 import PostModal from '@/components/common/PostModal'
 import { CardData } from '@/interfaces'
 import { useState } from 'react'
-
+import Header from '@/components/layout/Header'
 const cards = [
   { id: 1, title: 'card1', content: 'This is the content of card1' },
   { id: 2, title: 'card2', content: 'This is the content of card2' },
@@ -20,6 +20,7 @@ const Home = () => {
   }
   return (
     <div className="container mx-auto">
+      <Header />
       <main className="h-screen p-4">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl font-bold text-center p-4">Property List</h1>
