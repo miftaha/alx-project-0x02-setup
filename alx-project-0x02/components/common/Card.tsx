@@ -1,5 +1,4 @@
-import { CardProps } from '@/interfaces'
-
+import { type CardProps } from '@/interfaces'
 const Card: React.FC<CardProps> = ({ title, content }) => {
   return (
     <div className="bg-slate-200 shadow-md rounded-md max-w-lg hover:shadow-lg p-6">
